@@ -4,9 +4,9 @@ import numpy as np
 import torch
 from torch.utils.data import DataLoader
 
-from trvaep.model._losses import MSE_kl, mmd
-from trvaep.data_loader import CustomDatasetFromAdata
-from trvaep.utils import train_test_split
+from ._losses import MSE_kl, mmd
+from ..data_loader import CustomDatasetFromAdata
+from ..utils import train_test_split
 
 
 class Trainer:
