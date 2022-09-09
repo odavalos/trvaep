@@ -3,6 +3,7 @@
 from .model import *
 from .data_loader import CustomDatasetFromAdata
 from .pl import *
+from .utils import *
 
 
 
