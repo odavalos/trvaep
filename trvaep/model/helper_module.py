@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 
-from trvaep.utils import one_hot_encoder
+from ..utils import one_hot_encoder
 
 
 class Encoder(nn.Module):
